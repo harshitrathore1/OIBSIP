@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image1.jpg') center/cover ;
+    height: 150vh;
+    background-color: #f4f4f4;
+    color: #000000;
+
+}
+
+header {
+    background-color: #FFFF00;
+    color: #000000;
+    padding: 1em;
+    text-align: center;
+}
+
+section {
+    position: relative;
+    padding: 2em;
+    text-align: center;
+    color: white;
+    
+        
+}
+
+h1 {
+    color: #000000;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0045a0;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
